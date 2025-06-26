@@ -117,7 +117,7 @@ program
       } else {
         const transport = new StdioServerTransport();
         await server.connect(transport);
-        console.error('crew risk MCP Server running on stdio @Joooook');
+        console.error('crew risk MCP Server running on stdio');
       }
     } catch (error) {
       console.error('Fatal error in main():', error);

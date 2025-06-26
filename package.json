@@ -1,6 +1,6 @@
 {
   "name": "mcp-crew-risk",
-  "version": "0.3.2",
+  "version": "0.0.1",
   "main": "build/ai.js",
   "scripts": {
     "prebuild": "rm -rf build/*",
@@ -14,8 +14,8 @@
   "keywords": [
     "mcp",
     "crew",
-    "guard",
-    "crew-guard",
+    "assess",
+    "risk",
     "mcp-server"
   ],
   "author": "DeeppathAI",
