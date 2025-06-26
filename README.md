@@ -255,7 +255,7 @@ npx -y mcp-crew-risk
             "command": "npx",
             "args": [
                 "-y",
-                "mcp-crew-risk@0.0.1"
+                "mcp-crew-risk"
             ]
         }
     }
