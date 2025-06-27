@@ -264,3 +264,11 @@ This project is for learning purposes only. Contributions and feature requests a
 
 ## Business Collaboration Email: [deeppathai@outlook.com](mailto:deeppathai@outlook.com)
 </div>
+
+## 🧠 MCP Access Links
+
+- 🌐 [ModelScope MCP Address](https://modelscope.cn/mcp/servers/deeppathai/mcp-crew-risk)  
+  For testing and integrating the `mcp-crew-risk` service on the ModelScope platform.
+
+- 🛠️ [Smithery.ai MCP Address](https://smithery.ai/server/@deeppath-ai/mcp-crew-risk)  
+  For visually configuring and invoking the `mcp-crew-risk` service via the Smithery platform.

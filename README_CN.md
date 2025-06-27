@@ -272,3 +272,13 @@ npx -y mcp-crew-risk
   ## 商务合作联系邮件：  [deeppathai@outlook.com](mailto:deeppathai@outlook.com)
 
 </div>
+
+
+## 🧠 MCP 接入地址
+
+- 🌐 [魔搭 ModelScope MCP 地址](https://modelscope.cn/mcp/servers/deeppathai/mcp-crew-risk)  
+  适用于在 ModelScope 平台上调试和集成 `mcp-crew-risk` 服务。
+
+- 🛠️ [Smithery.ai MCP 地址](https://smithery.ai/server/@deeppath-ai/mcp-crew-risk)  
+  可用于在 Smithery 平台中以可视化方式配置和调用 `mcp-crew-risk` 服务。
+
