@@ -2,6 +2,8 @@
 
 # mcp-crew-risk
 
+[![smithery badge](https://smithery.ai/badge/@deeppath-ai/mcp-crew-risk)](https://smithery.ai/server/@deeppath-ai/mcp-crew-risk)
+
 </div> 
 
 
@@ -232,6 +234,14 @@
 
 
 <h1 align="center">⚙️Installation</h1>
+
+### Installing via Smithery
+
+To install mcp-crew-risk for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@deeppath-ai/mcp-crew-risk):
+
+```bash
+npx -y @smithery/cli install @deeppath-ai/mcp-crew-risk --client claude
+```
 
 ~~~bash
 git clone https://github.com/Joooook/mcp-crew-risk.git
