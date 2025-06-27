@@ -226,6 +226,13 @@ No `robots.txt` ≠ permission to crawl freely; technical crawlability ≠ legal
 
 ## 6. Planned Features 🚧 Pending
 
+
+<div align="center"> 
+  <img src="./doc/case1.jpg" width=800px/>
+  <img src="./doc/case2.jpg" width=800px/>
+</div>
+
+
 <h1 align="center">⚙️Installation</h1>
 
 ~~~bash

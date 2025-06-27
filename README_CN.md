@@ -229,6 +229,10 @@
 
 ## 6. 待定功能  🚧 待定
 
+<div align="center"> 
+  <img src="./doc/case1.jpg" width=800px/>
+  <img src="./doc/case2.jpg" width=800px/>
+</div>
 
 
 <h1 align="center">⚙️Installation</h1>
