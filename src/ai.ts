@@ -17,6 +17,20 @@ import {
 const MCP_NAME = "mcp-crew-risk"
 const VERSION = "0.0.1"
 
+
+
+// Configuration schema for Smithery - matches existing Config interface
+export const configSchema = z.object({
+  server: z.object({
+    port: z.number().optional().describe("The port to listen on for SSE or MCP transport"),
+    host: z.string().optional().describe("The host to bind the server to. Default is localhost. Use 0.0.0.0 to bind to all interfaces")
+  }).optional()
+});
+
+
+
+
+
 // Create server instance
 export const server = new McpServer({
   name: MCP_NAME,
@@ -126,3 +140,9 @@ program
   });
 
 program.parse();
+
+export default function ({ config }: { config: z.infer<typeof configSchema> }) {
+
+  return server.server;
+}
+
