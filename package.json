@@ -2,6 +2,7 @@
   "name": "mcp-crew-risk",
   "version": "0.0.1",
   "main": "build/ai.js",
+  "module": "./src/ai.ts",
   "scripts": {
     "prebuild": "rm -rf build/*",
     "build": "tsc",
