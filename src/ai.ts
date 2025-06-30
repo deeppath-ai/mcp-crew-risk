@@ -68,26 +68,26 @@ interface LeftTicketsQueryResponse extends QueryResponse {
 }
 
 
-server.tool(
-  'get-current-date',
-  'Retrieves the current date based on the Shanghai time zone (Asia/Shanghai, UTC+8), and returns it in the format "yyyy-MM-dd". It is primarily used to parse user-mentioned relative dates (e.g., "tomorrow", "next Wednesday") and provide accurate date input for other interfaces that require date information.',
-  {},
-  async () => {
-    try {
-      const timeZone = 'Asia/Shanghai';
-      const nowInShanghai = toZonedTime(new Date(), timeZone);
-      const formattedDate = format(nowInShanghai, 'yyyy-MM-dd');
-      return {
-        content: [{ type: 'text', text: formattedDate }],
-      };
-    } catch (error) {
-      console.error('Error getting current date:', error);
-      return {
-        content: [{ type: 'text', text: 'Error: Failed to get current date.' }],
-      };
-    }
-  }
-);
+// server.tool(
+//   'get-current-date',
+//   'Retrieves the current date based on the Shanghai time zone (Asia/Shanghai, UTC+8), and returns it in the format "yyyy-MM-dd". It is primarily used to parse user-mentioned relative dates (e.g., "tomorrow", "next Wednesday") and provide accurate date input for other interfaces that require date information.',
+//   {},
+//   async () => {
+//     try {
+//       const timeZone = 'Asia/Shanghai';
+//       const nowInShanghai = toZonedTime(new Date(), timeZone);
+//       const formattedDate = format(nowInShanghai, 'yyyy-MM-dd');
+//       return {
+//         content: [{ type: 'text', text: formattedDate }],
+//       };
+//     } catch (error) {
+//       console.error('Error getting current date:', error);
+//       return {
+//         content: [{ type: 'text', text: 'Error: Failed to get current date.' }],
+//       };
+//     }
+//   }
+// );
 
 server.tool(
   'assess-crew-risk',
