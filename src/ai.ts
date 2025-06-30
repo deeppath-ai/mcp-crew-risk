@@ -70,7 +70,7 @@ interface LeftTicketsQueryResponse extends QueryResponse {
 
 server.tool(
   'get-current-date',
-  '获取当前日期，以上海时区（Asia/Shanghai, UTC+8）为准，返回格式为 "yyyy-MM-dd"。主要用于解析用户提到的相对日期（如“明天”、“下周三”），为其他需要日期的接口提供准确的日期输入。',
+  'Retrieves the current date based on the Shanghai time zone (Asia/Shanghai, UTC+8), and returns it in the format "yyyy-MM-dd". It is primarily used to parse user-mentioned relative dates (e.g., "tomorrow", "next Wednesday") and provide accurate date input for other interfaces that require date information.',
   {},
   async () => {
     try {
@@ -91,9 +91,9 @@ server.tool(
 
 server.tool(
   'assess-crew-risk',
-  '爬虫合规风险评估体系评估',
+  'This system evaluates the compliance and potential risks associated with web crawling activities. It is designed to assist developers, legal teams, and data professionals in ensuring that their crawlers operate within acceptable technical, legal, and ethical boundaries.',
   {
-    url: z.string().describe('网页url，例如："https://www.xxx.com"'),
+    url: z.string().describe('Web page URL, for example: https://www.xxx.com'),
   },
   async ({ url }) => {
     let result = await checkSite(url)
