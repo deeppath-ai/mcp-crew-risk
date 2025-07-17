@@ -245,12 +245,16 @@ npm i
 
 ## <div align="center">▶️Quick Start</div>
 
+## 部署指南
+
 ### CLI
 ~~~bash
 npx -y mcp-crew-risk
 ~~~
 
 ### MCP sever configuration
+
+
 
 ~~~json
 {
@@ -267,8 +271,13 @@ npx -y mcp-crew-risk
 ~~~
 
 
+## 使用示例
+
+帮我评估下 https://beian.miit.gov.cn/ 的爬虫风险
+
+
 ## <div align="center">💭Murmurs</div>
-本项目仅用于学习，欢迎催更。
+本项目仅用于学习，欢迎催更。如需定制功能、部署为 Web 服务、与内部推广平台对接，请联系产品维护者。
 
 <div align="center"><h1>联系方式</h1></div>
   <img width="380" height="200" src="./doc/dpai.jpg" alt="mcp-crew-risk MCP server" />
